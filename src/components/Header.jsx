@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <img src="./assets/logo.jpg" alt="Logo Kasa" />
-        <ul className="nav-links">
+        <img src="/assets/logo/logo_header.jpg" alt="Logo Kasa" />
+        <ul className="nav__links">
           <NavLink
             to={"/"}
             className={({ isActive }) => (isActive ? "active" : "")}

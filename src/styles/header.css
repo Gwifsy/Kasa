@@ -1,24 +1,24 @@
 header {
-  padding: 45px 100px 45px 100px;
+  padding: 45px 100px 50px 100px;
 }
 header nav {
   display: flex;
   justify-content: space-between;
 }
-header nav .nav-links {
+header nav .nav__links {
   display: flex;
   align-items: center;
   gap: 57px;
   list-style: none;
 }
-header nav .nav-links a {
+header nav .nav__links a {
   color: #FF6060;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   text-decoration: none;
 }
-header nav .nav-links a.active {
+header nav .nav__links a.active {
   margin-top: 2px;
   line-height: 21px;
   border-bottom: 2px solid rgba(255, 96, 96, 0.6039215686);
@@ -26,21 +26,21 @@ header nav .nav-links a.active {
 
 @media (max-width: 768px) {
   header {
-    padding: 20px 20px;
+    padding: 20px 20px 27px 20px;
   }
   header nav img {
     width: 145px;
     height: 46px;
   }
-  header nav .nav-links {
+  header nav .nav__links {
     display: flex;
     gap: 26px;
   }
-  header nav .nav-links a {
+  header nav .nav__links a {
     font-size: 12px;
     text-transform: uppercase;
   }
-  header nav .nav-links a.active {
+  header nav .nav__links a.active {
     margin-top: 2px;
     line-height: 10px;
     border-bottom: 1px solid rgba(255, 96, 96, 0.6039215686);

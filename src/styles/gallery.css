@@ -1,0 +1,19 @@
+.home_gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  gap: 60px;
+  margin: 50px 100px;
+  padding: 50px;
+  background: #F6F6F6;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .home_gallery {
+    grid-template-columns: repeat(1, 5fr);
+    background: none;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=gallery.css.map */

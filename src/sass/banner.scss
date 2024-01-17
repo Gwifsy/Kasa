@@ -1,0 +1,57 @@
+.banner {
+    position: relative;
+    margin: 0 100px;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 223px;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+
+    &__sombre {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: #000;
+        border-radius: 25px;
+    }
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        margin: 0 20px;
+
+        img {
+            max-height: 111px;
+            border-radius: 10px;
+        }
+
+        &__sombre {
+            border-radius: 10px;
+        }
+
+        span {
+            font-size: 24px;
+            width: 67%;
+            text-align: start;
+        }
+    }
+}

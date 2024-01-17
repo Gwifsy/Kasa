@@ -1,0 +1,106 @@
+.housing_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 100px;
+  color: #FF6060;
+}
+.housing_container .housing_title {
+  display: flex;
+  flex-direction: column;
+}
+.housing_container .housing_title h1 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.housing_container .housing_title h2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+}
+.housing_container .housing_title .housing_tag {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.housing_container .housing_title .housing_tag .tag {
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  background: #FF6060;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px 30px;
+  gap: 10px;
+}
+.housing_container .housing_picture_host .housing_content_host {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+.housing_container .housing_picture_host .housing_content_host p {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  width: 50px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.housing_container .housing_picture_host .housing_content_host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.housing_container .housing_picture_host .housing_content_host_stars {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+.housing_container .housing_picture_host .housing_content_host_stars img {
+  margin-top: 25px;
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .housing_container {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 20px 0px 20px;
+  }
+  .housing_container .housing_title h1 {
+    font-size: 18px;
+  }
+  .housing_container .housing_title h2 {
+    font-size: 14px;
+  }
+  .housing_container .housing_title .housing_tag {
+    margin-top: 10px;
+  }
+  .housing_container .housing_title .housing_tag .tag {
+    padding: 4px 5px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .housing_container .housing_picture_host {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+  }
+  .housing_container .housing_picture_host .housing_content_host p {
+    font-size: 12px;
+  }
+  .housing_container .housing_picture_host .housing_content_host img {
+    width: 32px;
+    height: 32px;
+  }
+  .housing_container .housing_picture_host .housing_content_host_stars img {
+    margin-top: 0;
+    width: 15px;
+  }
+}/*# sourceMappingURL=housing.css.map */

@@ -1,11 +1,11 @@
 header {
-    padding: 45px 100px 45px 100px;
+    padding: 45px 100px 50px 100px;
 
     nav {
         display: flex;
         justify-content: space-between;
 
-        .nav-links {
+        .nav__links {
             display: flex;
             align-items: center;
             gap: 57px;
@@ -30,7 +30,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        padding: 20px 20px;
+        padding: 20px 20px 27px 20px;
 
         nav {
             img {
@@ -38,7 +38,7 @@ header {
                 height: 46px;
             }
 
-            .nav-links {
+            .nav__links {
                 display: flex;
                 gap: 26px;
 
