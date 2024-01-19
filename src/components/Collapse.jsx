@@ -14,7 +14,9 @@ const Collapse = ({ title, description }) => {
           alt=""
         />
       </div>
-      {isOpen && <div className="description">{description}</div>}
+      <div className={`description ${isOpen ? "opened" : ""}`}>
+        {description}
+      </div>
     </div>
   );
 };

@@ -23,21 +23,28 @@
   width: 32px;
   height: 32px;
   cursor: pointer;
-  transition: transform 0.6s;
+  transition: transform 0.4s ease;
 }
 .collapse .header__collapse .arrow__icon.true {
   transform: rotate(-180deg);
 }
 .collapse .description {
+  display: flex;
   color: #FF6060;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  padding: 16px 20px;
   border-radius: 0px 0px 5px 5px;
   background: #F6F6F6;
   z-index: -1;
-  margin-top: -4px;
+  padding: 0px 20px;
+  height: 0;
+  overflow: hidden;
+  transition: padding 0.4s ease;
+}
+.collapse .opened {
+  padding: 16px 20px;
+  height: auto;
 }
 
 @media (max-width: 768px) {

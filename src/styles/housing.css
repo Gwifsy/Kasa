@@ -44,7 +44,7 @@
 }
 .housing_container .housing_picture_host .housing_content_host p {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   text-align: right;
   width: 50px;
   font-size: 18px;
@@ -58,7 +58,7 @@
 }
 .housing_container .housing_picture_host .housing_content_host_stars {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 5px;
 }
 .housing_container .housing_picture_host .housing_content_host_stars img {

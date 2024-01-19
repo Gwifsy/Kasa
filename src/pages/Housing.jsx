@@ -7,10 +7,14 @@ import Slider from "../components/Carousel";
 import Collapse from "../components/Collapse";
 import redStar from "../assets/red_star.svg";
 import greyStar from "../assets/grey_star.svg";
+import NotFound from "./NotFound";
 
 const Housing = () => {
   const { id } = useParams();
   const dataFilter = data.find((data) => data.id === id);
+  if (!dataFilter) {
+    return <NotFound />;
+  }
   const rating = dataFilter.rating;
   return (
     <>
