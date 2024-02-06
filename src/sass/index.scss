@@ -3,14 +3,12 @@
     padding: 0;
 }
 
-
-
-@import "./header.css";
-@import "./footer.css";
-@import "./banner.css";
-@import "./gallery.css";
-@import "./card.css";
-@import "./error.css";
-@import "./collapse.css";
-@import "./carousel.css";
-@import "./housing.css";
+@import "./_header.scss";
+@import "./_footer.scss";
+@import "./_banner.scss";
+@import "./_gallery.scss";
+@import "./_card.scss";
+@import "./_error.scss";
+@import "./_collapse.scss";
+@import "./_carousel.scss";
+@import "./_housing.scss";
